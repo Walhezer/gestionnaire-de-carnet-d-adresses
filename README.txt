@@ -1,0 +1,12 @@
+Avancement de l'exercice : 
+- création du fichier PHP main.php
+- création de la base de donnée MySQL sur PhpMyAdmin (contacts) et insertion de 3 contacts
+- création d'un test avec la commande 'list' qui affiche une fois entrée "affichage de la liste"
+- création d'un nouveau fichier DBconnect.php dans lequel je définis ma classe et suppression des lignes de connexion directe 
+- création de la classe ContactManager (débug réalisé car affichae de 'aucun contact trouvé' suite à mauvaise syntaxe de '$contacts')
+- création de la classe Contact et modification de 'ContactManager.php' avec modif de la méthode "findall"
+- modification de la méthode findAll de la classe ContactManager + vérif avec "var_dump($contacts)" pour voir si objet pas null ou empty 
+- modification du fichier main.php pour instancier la classe ContactManger dans le if pour demander avec 'findAll' la liste des contacts
+- bouclage de la liste et utilisation de toString() pour afficher les contacts 
+- création d'une classe 'command' qui stocke toute la logique d'éxécution de chauqe commande et simplification de main.php
+ - création de commande 'détail' 'create' 'delete' 
