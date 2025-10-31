@@ -1,7 +1,7 @@
 <?php
 
 require_once 'Contact.php';
-
+//Classe qui permet de gerer un contact (recuperer les contacts, chercher, creer, modifier,supprimer)
 class ContactManager
 {
     private $pdo;

@@ -38,7 +38,7 @@ class Command
             echo "Aucun contact trouvé avec l'ID $id.\n";
         } else {
             echo "Détail du contact :\n";
-            echo $contact->toString() . "\n";
+            echo $contact . "\n";
         }
     }
     public function create($name, $email, $phone_number)
